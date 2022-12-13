@@ -9,7 +9,7 @@ String plus = t + "";
 	    int num = plus.length();
 	    for (int x = 1; x<=num; x++){
 	        sum+=t%10;
-	        number=t/10;
+	        t=t/10;
 	    }
 	    System.out.println(sum);
 
